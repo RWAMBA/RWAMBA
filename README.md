@@ -14,66 +14,86 @@ I created **CanaryGuard AI**, connecting release evidence, policy decisions, and
 
 I'm open to **roles and internships in software, cybersecurity, and DevSecOps**, alongside **AI and privacy-focused collaborations, open-source contributions, and relevant partnerships**. I bring practical project experience, an entrepreneurial perspective, and a commitment to learning through useful work.
 
-[Portfolio & project walkthroughs](https://valerie-rwamba-munyi.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/valerie-munyi-48587b2b6/) · [Email me](mailto:valerierwamba1@gmail.com) · [CV](https://valerie-rwamba-munyi.vercel.app/Valerie_Rwamba_Munyi_CV.pdf)
+[Portfolio & project walkthroughs](https://valerie-rwamba-munyi.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/valerie-munyi-48587b2b6/) · [Email me](mailto:valerierwamba1@gmail.com)
 
 ## Selected work
 
 ### 01 / CanaryGuard AI
-**Release decisions that can be traced back to evidence.**
+**Release review, policy decisions and rollout history in one traceable workflow.**
 
-- **Problem:** Passing a build alone doesn't explain whether a change should be released or how a rollout behaved.
-- **My work:** Connected validated release evidence, deterministic policy decisions, signed GitHub webhooks, and deployment observations under a stable release identity. Added PostgreSQL persistence and repository-scoped reporting.
-- **Tools:** TypeScript, Node.js, PostgreSQL, Docker, GitHub Actions.
-- **Evidence:** The repository documents its implemented MVP, tests, deployment workflows, API contracts, and limitations. AI advice stays separate from final policy authority; the default provider is a mock.
+- **Problem:** Test results, security scans and deployment observations arrive through separate systems. A release needs a decision tied to the exact commit and workflow attempt, followed by a record of whether the rollout continued, promoted or rolled back.
+- **My work:** Built TypeScript/Node.js APIs that validate release evidence, verify signed GitHub webhooks and correlate reviews, Check Runs and deployment events under an immutable release identity. Added PostgreSQL persistence for lifecycle history, duplicate-delivery protection and repository-scoped reporting. Deterministic policy blocks failed tests and critical security findings; AI advice cannot override it.
+- **Tools:** TypeScript · Node.js · PostgreSQL · Zod · OpenAI SDK · Docker · NGINX · GitHub Actions · Trivy · axe-core · Render.
+- **Results & evidence:** At the 9 October 2026 release, 531 tests passed. CI verified the built container, weighted routing, autonomous promotion, rollback and continuation; Render's deployed commit and health response were verified. The MVP supports an optional OpenAI provider and defaults to mock intelligence.
 
-[Source & setup](https://github.com/RWAMBA/the-autonomous-canary) · [Architecture & walkthrough](https://valerie-rwamba-munyi.vercel.app/#works)
+[Source, API contracts & setup](https://github.com/RWAMBA/the-autonomous-canary) · [Verified release checks](https://github.com/RWAMBA/the-autonomous-canary/actions/runs/37977195749)
 
 ### 02 / Engineering portfolio
-**A working route from project evidence to contact.**
+**Accessible project presentation with tested contact delivery.**
 
-- **Problem:** A project showcase needs clear contribution boundaries, accessible navigation, and a reliable way to get in touch.
-- **My work:** Customized an inherited Next.js portfolio, clarified project evidence, improved keyboard and mobile interactions, and integrated validated server-side contact delivery through Formspree.
-- **Tools:** Next.js, React, TypeScript, Tailwind CSS, Playwright, Vercel.
-- **Evidence:** At the contact release, 13 automated tests and 19 browser tests passed; post-merge CI passed, and a live submission reached the confirmed inbox.
+- **Problem:** The inherited site needed clearer project contributions, a hero that did not collide with the fixed header, reliable keyboard/mobile navigation and a working contact form.
+- **My work:** Customized the Next.js source, reorganized project cards around contribution and implementation evidence, and added focus handling, reduced-motion support and deterministic sitemap generation. Built a server-side Formspree integration with origin checks, bounded fields, a honeypot and an upstream timeout; failed submissions retain the visitor's message.
+- **Tools:** Next.js · React · TypeScript · Tailwind CSS · Framer Motion · Playwright · Node.js test runner · Formspree · GitHub Actions · Vercel.
+- **Results & evidence:** At the contact release, all 13 automated tests and 19 browser tests passed. Layout checks covered 320–1440px widths; post-merge CI passed, and the owner verified that a live production submission reached Gmail.
 
-[Live portfolio](https://valerie-rwamba-munyi.vercel.app/) · [Project details](https://valerie-rwamba-munyi.vercel.app/#works)
+[Live portfolio](https://valerie-rwamba-munyi.vercel.app/)
 
 ### 03 / Innovation Club Management System
-**Administrative workflows for a student club.**
+**Member, event and reporting workflows for an academic club system.**
 
-- **Problem:** Club members, events, attendance, and reporting need one organized workflow.
-- **My work:** Built an academic system with administrator, patron, and member workflows.
-- **Tools:** PHP, MySQL, XAMPP.
-- **Evidence:** KNEC academic project, 2026; project result: Distinction, Grade 1. Screens and context are available in the portfolio.
+- **Problem:** Club administration requires linked records for members, event registration, attendance, projects and reports, with different views for administrators, patrons and members.
+- **My work:** Developed and presented the Elite Academy Innovation Club Management System using PHP and MySQL. Implemented administrator, patron and member views, with local execution through XAMPP and supporting system documentation.
+- **Tools:** PHP · MySQL · HTML · CSS · JavaScript · Bootstrap · Apache · XAMPP · phpMyAdmin.
+- **Results & evidence:** The March 2026 KNEC Course Specialization Project received **Distinction (Grade 1)**. The portfolio includes login, event-creation and reporting screens from the submitted documentation.
 
-[Project walkthrough](https://valerie-rwamba-munyi.vercel.app/#works)
+[System screenshots & walkthrough](https://valerie-rwamba-munyi.vercel.app/#works)
+
+### 04 / LearnFlow Platform
+**Role-based education workflows with explicit data-access boundaries.**
+
+- **Problem:** Students, guardians, teachers, tutors and administrators need access to different education records. Authentication, account recovery and database permissions must support those role and organization boundaries.
+- **My work:** Worked on a Lovable-scaffolded React/TypeScript application with authentication, account recovery, role permissions, curriculum and assessment workflows. The repository includes Supabase migrations, access-policy tests and storage-authorization checks, with architecture and security handoff documents explaining their scope.
+- **Tools:** React · TypeScript · TanStack Start/Router/Query · Vite · Tailwind CSS · Supabase · PostgreSQL · Vitest · Playwright · Bun.
+- **Results & evidence:** PR checks passed for type checking, lint, tests, build and disposable Supabase migration, row-level security and storage-principal verification. Source and security documents make the access boundaries reviewable; the repository currently lists no public demo. The original brief is retained separately from the implemented application.
+
+[Source, setup & security documentation](https://github.com/RWAMBA/learnflow-platform)
 
 ## Tools & technical foundation
 
-[![TypeScript, JavaScript, Node.js, React, Next.js, PostgreSQL, Supabase, Docker, Git, GitHub Actions](https://skillicons.dev/icons?i=ts,js,nodejs,react,nextjs,postgres,supabase,docker,git,githubactions&perline=5)](https://valerie-rwamba-munyi.vercel.app/)
+[![TypeScript, JavaScript, HTML, CSS, PHP, Bootstrap, React, Next.js, Tailwind CSS, Vite, Node.js, PostgreSQL, Supabase, MySQL, Docker, NGINX, Git, GitHub, GitHub Actions, Vercel, Bun, npm and Linux](https://skillicons.dev/icons?i=ts,js,html,css,php,bootstrap,react,nextjs,tailwind,vite,nodejs,postgres,supabase,mysql,docker,nginx,git,github,githubactions,vercel,bun,npm,linux&perline=8)](https://github.com/RWAMBA?tab=repositories)
 
-**Application development:** TypeScript · JavaScript · Node.js · React · Next.js · REST APIs
+| Area | Tools used across my projects |
+| --- | --- |
+| Languages & interfaces | TypeScript · JavaScript · PHP · HTML · CSS · React · Next.js · Tailwind CSS · Bootstrap · Framer Motion · Radix UI |
+| Application & data | Node.js · REST APIs · TanStack Start, Router & Query · Vite · PostgreSQL · Supabase Auth/Storage · MySQL · Zod · OpenAI SDK |
+| Delivery & environments | Git · **GitHub** · GitHub Actions · Docker · NGINX · Vercel · Render · Linux · npm · Bun · Apache · XAMPP · phpMyAdmin · Formspree |
+| Testing & code quality | Playwright · Vitest · Node.js test runner · Testing Library · axe-core · ESLint · Prettier |
+| Security practices | Trivy dependency/container/secret scans · signed-webhook verification · role-based access · Supabase row-level security · input validation · privacy-conscious logging |
 
-**Data & delivery:** PostgreSQL · Supabase · Docker · Git · GitHub Actions · automated testing
+## GitHub statistics
 
-**Security practices in my projects:** authentication · role-based access · webhook verification · input validation · privacy-conscious logging
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RWAMBA&theme=github_dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RWAMBA&theme=github">
+  <img alt="RWAMBA's public GitHub statistics: stars, commits, pull requests, issues and contributions" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RWAMBA&theme=github_dark" width="340">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RWAMBA&theme=github_dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RWAMBA&theme=github">
+  <img alt="Languages represented in RWAMBA's public repositories" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RWAMBA&theme=github_dark" width="340">
+</picture>
 
-## How I turn ideas into useful work
+<sub>Cards use public GitHub data and refresh through the card provider's cache. Repository language statistics describe the visible code mix, not proficiency. Private project work is not represented by these cards; GitHub's contribution calendar appears below.</sub>
 
-- Start with the user need and make my contribution explicit.
-- Keep implementation, tests, and evidence close together.
-- Treat CI results and deployment identity as evidence, with clear limits.
-- Keep credentials and private client information outside public repositories.
-- Document decisions so another engineer can understand and run the work.
+## How I work
 
-## Learning & background
+- Define the user workflow, access boundaries and acceptance criteria before implementation.
+- Deliver through a verified baseline, isolated branch, reviewed changes, CI and post-deployment checks.
+- Test failure paths, authorization and keyboard interactions alongside the expected flow.
+- Keep secrets and private client information outside public repositories; document implementation decisions and limits.
 
-Diploma in ICT at Kiambu National Polytechnic: examinations completed; graduation expected November 2026. Previous ICT attachment at Kiambu County Government. Currently building security knowledge as an **ISC2 Candidate**.
+## Collaboration & opportunities
 
-## Let's build something useful
+I'm open to **software, cybersecurity and DevSecOps roles and internships**, **AI and privacy-focused collaborations**, and **technology partnerships**. My project work spans application delivery, security controls, release automation and product development through CanaryGuard AI and NextEdge Analytics.
 
-For a role, internship, collaboration, or partnership, tell me the problem you want to solve and where our work could connect. I welcome conversations about secure applications, AI-enabled tools, privacy-first products, and practical technology ventures.
-
-**[Get in touch](https://valerie-rwamba-munyi.vercel.app/#contact)** · **[Explore the evidence](https://github.com/RWAMBA/the-autonomous-canary)**
-
-<sub>The portrait is a full-frame ASCII conversion of my supplied photo, with its original proportions preserved. The SVGs are stored in this repository, adapt to light and dark mode, and respect reduced-motion preferences. GitHub's contribution calendar below shows my public activity.</sub>
+**[Contact me](https://valerie-rwamba-munyi.vercel.app/#contact)** · **[LinkedIn](https://www.linkedin.com/in/valerie-munyi-48587b2b6/)**
