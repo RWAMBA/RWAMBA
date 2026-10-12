@@ -6,13 +6,13 @@
 
 # Valerie Rwamba Munyi
 
-**Building useful technology. Making security part of the process. Turning ideas into evidence.**
+**Software, cybersecurity and technology ventures.**
 
 I'm Valerie, a technology builder and entrepreneur based in Nairobi, Kenya, working across **software development, cybersecurity, and release engineering**. My wider interests include **DevSecOps, AI applications, data privacy, and technology ventures**.
 
 I created **CanaryGuard AI**, connecting release evidence, policy decisions, and deployment observations. I also lead **NextEdge Analytics**, a privacy-first web analytics venture. My portfolio shows application work, security decisions, academic projects, and the reasoning behind them.
 
-I'm open to **roles and internships in software, cybersecurity, and DevSecOps**, alongside **AI and privacy-focused collaborations, open-source contributions, and relevant partnerships**. I bring practical project experience, an entrepreneurial perspective, and a commitment to learning through useful work.
+I'm open to **roles and internships in software and backend engineering, cybersecurity, and DevSecOps**, with interest in **platform engineering and developer tooling**, alongside **AI and privacy-focused collaborations, open-source contributions, and relevant partnerships**. I bring practical project experience, an entrepreneurial perspective, and a commitment to learning through useful work.
 
 [Portfolio & project walkthroughs](https://valerie-rwamba-munyi.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/valerie-munyi-48587b2b6/) · [Email me](mailto:valerierwamba1@gmail.com)
 
@@ -24,9 +24,10 @@ I'm open to **roles and internships in software, cybersecurity, and DevSecOps**,
 - **Problem:** Test results, security scans and deployment observations arrive through separate systems. A release needs a decision tied to the exact commit and workflow attempt, followed by a record of whether the rollout continued, promoted or rolled back.
 - **My work:** Built TypeScript/Node.js APIs that validate release evidence, verify signed GitHub webhooks and correlate reviews, Check Runs and deployment events under an immutable release identity. Added PostgreSQL persistence for lifecycle history, duplicate-delivery protection and repository-scoped reporting. Deterministic policy blocks failed tests and critical security findings; AI advice cannot override it.
 - **Tools:** TypeScript · Node.js · PostgreSQL · Zod · OpenAI SDK · Docker · NGINX · GitHub Actions · Trivy · axe-core · Render.
-- **Results & evidence:** At the 9 October 2026 release, 531 tests passed. CI verified the built container, weighted routing, autonomous promotion, rollback and continuation; Render's deployed commit and health response were verified. The MVP supports an optional OpenAI provider and defaults to mock intelligence.
+- **Results & evidence:** At the 11 October 2026 milestone, revision [`22770dc`](https://github.com/RWAMBA/the-autonomous-canary/commit/22770dcd31f4f72d8d684fcf6813e38e358c25e1), 534 automated tests passed locally with type-check and build validation; 146 local browser layout and interaction checks passed; and eight local automated accessibility scans found no violations of the tested WCAG A/AA rules. Post-merge CI, including deployment, passed, and the deployed revision and health were verified. The 9 October release passed 531 tests; that remains historical evidence.
+- **Verification scope:** Test counts are not coverage percentages, and automated scans are not full accessibility certification. Weighted routing, promotion, continuation and rollback were verified in the controlled Docker setup, not universally across cloud providers. Public previews use synthetic records. Optional structured OpenAI analysis remains advisory; `MOCK` is the default.
 
-[Source, API contracts & setup](https://github.com/RWAMBA/the-autonomous-canary) · [Verified release checks](https://github.com/RWAMBA/the-autonomous-canary/actions/runs/37977195749)
+[Source, API contracts & setup](https://github.com/RWAMBA/the-autonomous-canary) · [Verified milestone & local validation](https://github.com/RWAMBA/the-autonomous-canary/pull/41) · [Post-merge CI & deployment](https://github.com/RWAMBA/the-autonomous-canary/actions/runs/38147598975)
 
 ### 02 / Engineering portfolio
 **Accessible project presentation with tested contact delivery.**
@@ -94,6 +95,6 @@ I'm open to **roles and internships in software, cybersecurity, and DevSecOps**,
 
 ## Collaboration & opportunities
 
-I'm open to **software, cybersecurity and DevSecOps roles and internships**, **AI and privacy-focused collaborations**, and **technology partnerships**. My project work spans application delivery, security controls, release automation and product development through CanaryGuard AI and NextEdge Analytics.
+I'm open to **software, backend, cybersecurity and DevSecOps roles and internships**, **platform engineering and developer-tooling opportunities**, **AI and privacy-focused collaborations**, and **technology partnerships**. My project work spans application delivery, security controls, release automation and product development through CanaryGuard AI and NextEdge Analytics.
 
 **[Contact me](https://valerie-rwamba-munyi.vercel.app/#contact)** · **[LinkedIn](https://www.linkedin.com/in/valerie-munyi-48587b2b6/)**
