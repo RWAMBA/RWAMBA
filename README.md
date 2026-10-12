@@ -8,7 +8,7 @@
 
 **Software, cybersecurity and technology ventures.**
 
-I'm Valerie, a technology builder and entrepreneur based in Nairobi, Kenya, working across **software development, cybersecurity, and technology roles**. My wider interests include **DevSecOps, AI applications, data privacy, and technology ventures**.
+I'm Valerie, a technology builder and entrepreneur based in Nairobi, Kenya, working across **software development, cybersecurity, and ICT roles**. My wider interests include **DevSecOps, AI applications, data privacy, and technology ventures**.
 
 I created **CanaryGuard AI**, connecting release evidence, policy decisions, and deployment observations. I also lead **NextEdge Analytics**, a privacy-first web analytics venture. My portfolio shows application work, security decisions, academic projects, and the reasoning behind them.
 
